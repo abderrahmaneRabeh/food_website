@@ -1,0 +1,252 @@
+/* styling Component <Section /> */
+
+.nbr{
+    background-color: #a7432c;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.nbr .row{
+    margin: 10px 0;
+}
+.nbr h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+}
+.nbr h6{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* styling Component <Section2 /> */
+
+.section2{
+    background-color: transparent;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.section2 .img{
+    width: 85%;
+}
+
+.section2 .txtSection{
+    margin: 45px 0;
+}
+.section2 h2,
+.section3 h2,
+.section4 h2,
+.section5 h2{
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #a7432c;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.section2 p,
+.section3 p,
+.section4 p,
+.section5 p,
+.section7 p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family:'Courier New', Courier, monospace;
+}
+.section2 button,
+.section3 button,
+.section6 button{
+    font-family:'Courier New', Courier, monospace;
+    width: 120px;
+    height: 40px;
+    background-color: #a7432c;
+    border: 1px solid #a7432c;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+}
+.section2 button:hover,
+.section3 button:hover,
+.section6 button:hover{
+    background-color: #fff;
+    color: #a7432c
+}
+
+/* styling Component <Section3 /> */
+
+.section3{
+    margin-top:50px ;
+}
+
+.section3 .img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+}
+.section3 .txtSection{
+    margin: 70px 0;
+}
+.section3 ul {
+    padding: 0 0 0 16px;
+}
+.section3 ul li{
+    
+    list-style: square;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #666262;
+    margin-top: 10px;
+}
+
+/* styling Component <Section4 /> */
+
+.section4{
+    margin-top: 70px;
+    background-image: url('../../../public/bg8.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    padding: 30px 0;
+    text-align: center;
+}
+.section4 .row{
+    margin: 50px 0;
+}
+.section4 h2, .section4 p{
+    line-height: 40px;
+}
+
+/* styling Component <Section5 /> */
+
+.section5 .row {
+    margin: 50px 0;
+    text-align: center;
+}
+.section5 p{
+    line-height: 40px;
+}
+
+/* styling Component <Section6 /> */
+
+.section6 ,.section7,.section8 {
+    margin: 50px 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.section6 h2{
+    text-align: center;
+    margin: 25px 0;
+}
+.section6 img{
+    max-width: 100%;
+}
+.section6 .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    margin-top: 10px;
+    box-shadow: gray 3px 0px 12px 0px;
+    border-radius: 5px;
+}
+.section6 h5,
+.section7 h3{
+    color: #a7432c;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.section6 span{
+    color: #ffffff;
+    padding: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #a7432c;
+}
+
+.section6 h6{
+    color: rgb(172, 6, 6);
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace; 
+    margin: 10px 0px 10px 20px;
+    font-weight: bold;
+}
+.section6 button{
+    border-radius: 5px;
+    margin-left:20px ;
+    width: max-content;
+}
+
+/* styling Component <Section6 /> */
+
+.section7 h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section7 p{
+    text-align: center;
+}
+
+/* styling Component <Section6 /> */
+
+.section8 {
+    background-color: #a7432c;
+    max-width: 100%;
+    border: #a83117 1px solid;
+    text-align: center;
+    padding: 50px 0;
+}
+.section8 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+}
+.section8 .carousel-caption h3{
+   color: #212121;
+   font-size: 17px;
+   line-height: 30px;
+}
+.section8 .carousel-caption p{
+   color: #b72807;
+    display: block;
+    margin: 15px 0 ;
+    text-transform: uppercase;
+}
+.section8 .carousel{
+    background-color: #fff;
+    margin: 40px 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0;
+}
+.section8 .carousel-indicators button{
+    background-color: #a83117;
+}

@@ -1,0 +1,39 @@
+Nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 0px;
+}
+Nav a{
+    color: #ab4b35 !important;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+.imgLogo{
+    max-width: 100%;
+    height:100px;
+}
+#lastel{
+    margin-left: 220px;
+    margin-top: 22px;
+    box-sizing: border-box;
+    color: #fff !important;
+    background-color: #ab4b35;
+    padding: 4px;
+    border: 2px solid #ab4b35;
+}
+#lastel:hover{
+    color: #ab4b35 !important;
+    background-color: transparent;
+    transition: .2s ease-in-out;
+}
+.marNav{
+    margin-top: 25px;
+}
+
+@media (max-width:1000px) {
+    #lastel{
+        margin-left: 0px;
+    }
+}
